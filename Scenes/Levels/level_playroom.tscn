@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://cohtv1dtrhx2s"]
+[gd_scene load_steps=4 format=3 uid="uid://cohtv1dtrhx2s"]
 
 [ext_resource type="PackedScene" uid="uid://bgjn7vr1fely" path="res://Scenes/Objects/table.tscn" id="1_g1wxn"]
 [ext_resource type="PackedScene" uid="uid://be6beo22efk2n" path="res://Scenes/Objects/white_cue.tscn" id="2_btju5"]
+[ext_resource type="PackedScene" uid="uid://cd2a2orf7sycp" path="res://Scenes/Objects/enemy_cue.tscn" id="3_iopqy"]
 
 [node name="Level_Playroom" type="Node2D"]
 
@@ -9,3 +10,6 @@
 
 [node name="White Cue" parent="." instance=ExtResource("2_btju5")]
 position = Vector2(221, 503)
+
+[node name="Enemy Cue" parent="." instance=ExtResource("3_iopqy")]
+position = Vector2(227, 266)
