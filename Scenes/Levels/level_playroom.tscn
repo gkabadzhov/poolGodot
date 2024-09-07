@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://cohtv1dtrhx2s"]
+
+[ext_resource type="PackedScene" uid="uid://bgjn7vr1fely" path="res://Scenes/Objects/table.tscn" id="1_g1wxn"]
+[ext_resource type="PackedScene" uid="uid://be6beo22efk2n" path="res://Scenes/Objects/white_cue.tscn" id="2_btju5"]
+
+[node name="Level_Playroom" type="Node2D"]
+
+[node name="Table" parent="." instance=ExtResource("1_g1wxn")]
+
+[node name="White Cue" parent="." instance=ExtResource("2_btju5")]
+position = Vector2(221, 503)
